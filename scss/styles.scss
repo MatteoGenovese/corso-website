@@ -8,3 +8,9 @@
         url("../images/header-background.jpg") center center no-repeat;
     background-size: cover;
 }
+
+@media (max-width: 992px) {
+    .navbar {
+        background: var(--bs-dark);
+    }
+}
